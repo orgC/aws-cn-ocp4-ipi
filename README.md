@@ -1,7 +1,6 @@
 # Red Hat OpenShift Container Platform v4 on AWS China
 
-目前OCP v4 Installer Provisioned Infrastructure (IPI) 
-
+通过以下方式可以在AWS中国区 通过IPI方式安装 OCP4
 
 ## 需要准备的资源
 1. AWS中国区域的帐号。
@@ -56,5 +55,10 @@ export CLUSTER_NAME=myocpcluster
 ./scripts/1_create_vpc.sh
 
 ```
+
+# 通过openshift-install 命令安装OCP4
+
+参考以下链接 [install](https://docs.openshift.com/container-platform/4.6/installing/installing_aws/installing-aws-vpc.html)
+
 
 
