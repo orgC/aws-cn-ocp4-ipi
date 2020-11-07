@@ -1,0 +1,19 @@
+[
+  {
+    "ParameterKey": "VpcCidr",
+    "ParameterValue": "10.7.90.0/23"
+  },
+  {
+    "ParameterKey": "AvailabilityZoneCount",
+    "ParameterValue": "3"
+  },
+  {
+    "ParameterKey": "PublicSubnetBits",
+    "ParameterValue": "5"
+  },
+  {
+    "ParameterKey": "PrivateSubnetBits",
+    "ParameterValue": "7"
+  }
+]
+
